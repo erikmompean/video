@@ -1,0 +1,54 @@
+body {
+
+	font-family: Arial;
+
+}
+
+video#bgvid { 
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+	
+	transition: 1s -webkit-filter linear;
+
+}
+
+#mute {
+
+	cursor: pointer;
+	color: white;
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+#full {
+
+	cursor: pointer;
+	color: white;
+	position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 50px;
+
+}
+
+#videoDiv {
+	height: 100vh;
+	width: 100%;
+}
